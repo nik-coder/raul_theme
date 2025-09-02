@@ -1,0 +1,56 @@
+{
+  "label": "Accordion Slider",
+  "icon": "list",
+  "host_template_types": [
+    "PAGE",
+    "BLOG_POST"
+  ],
+  "css_assets": [],
+  "js_assets": [],
+  "is_available_for_new_content": true,
+  "fields": [
+    {
+      "name": "items",
+      "label": "Accordion Items",
+      "required": true,
+      "locked": false,
+      "type": "repeatable_group",
+      "children": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "content",
+          "label": "Content",
+          "type": "richtext",
+          "required": true
+        },
+        {
+          "name": "image",
+          "label": "Image (optional)",
+          "type": "image"
+        }
+      ],
+      "default": [
+        {
+          "title": "Performance marketing that scales",
+          "content": "We blend data and creativity to drive measurable results. Our team optimizes every step of your funnel.",
+          "image": ""
+        },
+        {
+          "title": "SEO & content that compounds",
+          "content": "Build durable acquisition with a research\u2011backed editorial engine and technical SEO excellence.",
+          "image": ""
+        },
+        {
+          "title": "Design systems that convert",
+          "content": "Interfaces that feel modern, fast and accessible across devices with clean, conversion\u2011driven UI/UX.",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}

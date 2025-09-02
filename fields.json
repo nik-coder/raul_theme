@@ -1,0 +1,30 @@
+[
+  {
+    "name": "brand_color",
+    "label": "Brand Primary",
+    "type": "color",
+    "default": "#ff6a3d"
+  },
+  {
+    "name": "text_color",
+    "label": "Headline Text Color",
+    "type": "color",
+    "default": "#0f1b2d"
+  },
+  {
+    "name": "muted_bg",
+    "label": "Muted Background",
+    "type": "color",
+    "default": "#fff6f2"
+  },
+  {
+    "name": "body_font",
+    "label": "Body Font",
+    "type": "font",
+    "load_external_fonts": true,
+    "default": {
+      "font": "Inter",
+      "variant": "regular"
+    }
+  }
+]

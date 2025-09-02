@@ -1,0 +1,7 @@
+
+.ra-accordion .acc-item.open .acc-head span[aria-hidden]{
+  transform: rotate(45deg);
+}
+.ra-accordion .acc-head span[aria-hidden]{
+  transition: transform .2s ease;
+}

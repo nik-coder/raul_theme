@@ -1,0 +1,22 @@
+<div class="ra-accordion">
+  {% for i in module.items %}
+    <div class="acc-item">
+      <div class="acc-head">
+        <span>{{ i.title }}</span>
+        <span aria-hidden="true">+</span>
+      </div>
+      <div class="acc-body">
+        <div class="row g-3 py-3 align-items-center">
+          {% if i.image.src %}
+          <div class="col-md-4">
+            <img class="img-fluid rounded-3" src="{{ i.image.src }}" alt="{{ i.image.alt|striptags }}">
+          </div>
+          {% endif %}
+          <div class="{% if i.image.src %}col-md-8{% else %}col-12{% endif %}">
+            {{ i.content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,7 @@
+{
+  "label": "RAUL Theme",
+  "preview_path": "templates/home.html",
+  "screenshot_path": "images/screenshot.png",
+  "allow_submodules": true,
+  "documentation_url": "https://developers.hubspot.com/docs/cms"
+}
