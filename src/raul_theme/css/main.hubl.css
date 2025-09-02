@@ -1,4 +1,3 @@
-
 /* RAUL Theme main styles */
 :root{
   --brand: {{ theme.brand_color }};
