@@ -5,7 +5,7 @@
   --headline: {{ theme.text_color }};
   --muted-bg: {{ theme.muted_bg }};
 }
-html,body{font-family: {{ theme.body_font.css }}; };
+html, body { font-family: {{ theme.body_font.css }}; }
 .hero{
   background: var(--muted-bg);
   padding: 80px 0;
